@@ -10,6 +10,14 @@ body {
 	margin-right: 25%;
 }
 
+.topbox img {
+  z-index: 9999;
+  width: 250px;
+  float: left;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
 nav {
   position: fixed;
   text-align: right;
@@ -18,8 +26,6 @@ nav {
   width: 100%;
   padding-right: 25%;
   margin-top: 15px;
-  z-index: 9999;
-
 }
 
 ul {
@@ -54,11 +60,10 @@ nav a:hover {
   background: white;
   overflow: hidden;
   padding-left: 0;
-  z-index: 9999;
   box-shadow: 0px 2px 20px #e1e1e1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
 
  .container {
  	margin-left: 15%;
@@ -67,6 +72,24 @@ nav a:hover {
 
  nav {
  	padding-right: 15%;
+ 	margin-top: 20px;
+ }
+
+ .topbox img {
+ 	margin-left: 15%;
+ }
+
+}
+
+@media screen and (max-width: 800px) {
+
+ nav {
+  padding-right: 5%;
+  margin-top: 25px;
+ }
+
+ .topbox img {
+ 	margin-left: 5%;
  }
 
 }
