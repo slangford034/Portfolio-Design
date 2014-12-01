@@ -6,8 +6,8 @@ body {
 .container{
 	width: 100%; /*width: 1000px;*/
 	max-width: 1200px;
-	margin-left: 8%;
-	margin-right: 8%;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 nav {
@@ -16,8 +16,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 6%;
-  padding-right: 8%;
+  padding-right: 25%;
+  margin-top: 15px;
   z-index: 9999;
 
 }
@@ -36,7 +36,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 nav a:hover {
@@ -50,12 +50,23 @@ nav a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 6%;
-  background: #414042;
+  height: 80px;
+  background: white;
   overflow: hidden;
   padding-left: 0;
   z-index: 9999;
+  box-shadow: 0px 2px 20px #e1e1e1;
 }
 
+@media screen and (max-width: 1024px) {
 
-box-shadow: 0px 5px 45px #e1e1e1;
+ .container {
+ 	margin-left: 15%;
+ 	margin-right: 15%;
+ }
+
+ nav {
+ 	padding-right: 15%;
+ }
+
+}
