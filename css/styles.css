@@ -25,7 +25,7 @@ nav {
   left: 0;
   width: 100%;
   padding-right: 25%;
-  margin-top: 20px;
+  margin-top: 30px;
   font-family: 'Droid Serif', serif;
 }
 
@@ -39,6 +39,7 @@ nav li {
   font-size: 1.25em;
   letter-spacing: .2%;
   display: inline-block;
+  font-size: 1.1em;
 }
 
 nav a {
@@ -69,6 +70,15 @@ nav a:hover {
   min-height: 15%;
 }
 
+.ui.grid {
+  margin: 2rem;
+  font-family: 'Droid Serif', serif;
+  font-size: 1em;
+  text-align: center;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
 @media screen and (max-width: 1100px) {
 
  .container {
@@ -84,6 +94,14 @@ nav a:hover {
  .topbox img {
  	margin-left: 15%;
  }
+
+.ui.grid {
+   margin: 2rem;
+   font-family: 'Droid Serif', serif;
+   font-size: 1em;
+   text-align: center;
+   margin-left: 15%;
+   margin-right: 15%;
 
 }
 
