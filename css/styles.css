@@ -101,6 +101,7 @@ p {
 .ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
 	min-width: 48%;
 	margin-left: 1%;
+	border: solid 1px #C0C0C0;
 
 }
 
@@ -108,7 +109,7 @@ p {
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 75px;
 }
 
 .ui.images .image, .ui.images img {
