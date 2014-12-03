@@ -100,7 +100,6 @@ p {
 
 .ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
 	min-width: 48%;
-	min-height: 48%;
 	margin-left: 1%;
 
 }
