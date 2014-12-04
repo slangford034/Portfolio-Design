@@ -102,6 +102,7 @@ p {
 	min-width: 48%;
 	margin-left: 1%;
 	border: solid 1px #C0C0C0;
+	background: transparent url('display-1.jpg') center top no-repeat;
 
 }
 
@@ -111,6 +112,8 @@ p {
 	margin-top: 50px;
 	margin-bottom: 75px;
 }
+
+
 
 .ui.images .image, .ui.images img {
 	margin: 0px 0.50rem 13px;
