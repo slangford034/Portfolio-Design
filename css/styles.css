@@ -28,6 +28,7 @@ nav {
   margin-top: 30px;
   font-family: 'Droid Sans', sans-serif;
   color: #A8A7A7;
+  z-index: 9;
 }
 
 ul {
@@ -64,6 +65,7 @@ nav a:hover {
   overflow: hidden;
   padding-left: 0;
   box-shadow: 5px -18px 52px black;
+  z-index: 8;
 }
 
 .banner img {
@@ -102,7 +104,6 @@ p {
 	min-width: 48%;
 	margin-left: 1%;
 	border: solid 1px #C0C0C0;
-	background: transparent url('display-1.jpg') center top no-repeat;
 
 }
 
@@ -136,21 +137,22 @@ p {
 .wrapper p {
 	text-align: center;
 	font-family: 'Droid Sans', sans-serif;
+	margin-top: 5px;
 
 }
 
 hr {
   border: 1px solid #484848;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 1400px) {
 
-	.ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+	.ui.medium.image.fade.reveal, .ui.medium.images .image, .ui.medium.images img {
 	 	min-width: 100%;
-	 	height: 100%;
 	}
 
-	.ui.images {
+	.ui.images.fade.reveal {
 		margin-left: 25%;
 		margin-right: 25%;
 		margin-top: 50px;
