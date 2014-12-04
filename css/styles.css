@@ -75,11 +75,11 @@ nav a:hover {
 
 .ui.grid {
   margin: 4rem;
-  font-family: 'Droid Serif', serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 1em;
   text-align: center;
-  margin-right: 35%;
-  margin-left: 35%;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 h1 {
@@ -112,6 +112,7 @@ p {
 	margin-right: 25%;
 	margin-top: 50px;
 	margin-bottom: 75px;
+	display: inline-block;
 }
 
 
@@ -205,6 +206,17 @@ hr {
  	margin-right: 15%;
  }
 
+ .ui.grid {
+ 	margin-left: 15%;
+ 	margin-right: 15%;
+ 	font-family: 'Droid Sans', sans-serif;
+ }
+
+ .ui.images.fade.reveal {
+	margin-left: 15%;
+	margin-right: 15%;
+ }	
+
 }
 @media screen and (max-width: 800px) {
 
@@ -239,9 +251,20 @@ hr {
  }
 
  .ui.images {
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 50px;
 	}
+
+.ui.grid {
+    margin-left: 5%;
+ 	margin-right: 5%;
+ 	font-family: 'Droid Sans', sans-serif;
+ }
+
+ .ui.images.fade.reveal {
+	margin-left: 5%;
+	margin-right: 5%;
+ }	
 
 }
