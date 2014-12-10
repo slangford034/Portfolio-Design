@@ -32,7 +32,6 @@ nav {
 }
 
 ul {
-  margin: 1% 0;
   padding: 0.01%;
 
 }
@@ -111,8 +110,7 @@ p {
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top: 50px;
-	margin-bottom: 75px;
-	display: inline-block;
+	margin-bottom: 5%;
 }
 
 
@@ -147,6 +145,20 @@ hr {
   margin-bottom: 15px;
 }
 
+.ui.reveal {
+	width: 48%;
+	margin-right: .7%;
+	margin-left: .8%;
+}
+
+.ui.reveal>.visible.content {
+	width: 100%;
+}
+
+.ui.reveal>.hidden.content {
+	width: 100%;
+}
+
 @media screen and (max-width: 1400px) {
 
 	.ui.medium.image.fade.reveal, .ui.medium.images .image, .ui.medium.images img {
@@ -157,6 +169,10 @@ hr {
 		margin-left: 25%;
 		margin-right: 25%;
 		margin-top: 50px;
+	}
+
+	ul {
+		margin: 1.4% 0;
 	}
 
 }
@@ -217,6 +233,10 @@ hr {
 	margin-right: 15%;
  }	
 
+ ul {
+		margin: 1.4% 0;
+	}
+
 }
 @media screen and (max-width: 800px) {
 
@@ -266,5 +286,9 @@ hr {
 	margin-left: 5%;
 	margin-right: 5%;
  }	
+
+ ul {
+		margin: 1.4% 0;
+	}
 
 }
