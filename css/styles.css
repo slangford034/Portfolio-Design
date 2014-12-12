@@ -14,7 +14,7 @@ body {
   z-index: 9999;
   width: 240px;
   float: left;
-  margin-left: 25%;
+  margin-left: 15%;
   margin-top: 20px;
 }
 
@@ -24,7 +24,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  padding-right: 25%;
+  padding-right: 15%;
   margin-top: 30px;
   font-family: 'Droid Sans', sans-serif;
   color: #A8A7A7;
@@ -73,21 +73,18 @@ nav a:hover {
 }
 
 .ui.grid {
-  margin: 4rem;
+  margin: 2rem;
   font-family: 'Droid Sans', sans-serif;
   font-size: 1em;
   text-align: center;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 h1 {
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: bold;
 	color: #424242;
-	margin-top: 4rem;
-	margin-left: 25%;
-	margin-right: 25%;
 }
 
 p {
@@ -107,9 +104,9 @@ p {
 }
 
 .ui.images {
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 60px;
 	margin-bottom: 5%;
 }
 
@@ -136,8 +133,6 @@ p {
 .wrapper p {
 	text-align: center;
 	font-family: 'Droid Sans', sans-serif;
-	margin-top: 5px;
-
 }
 
 hr {
@@ -146,8 +141,8 @@ hr {
 }
 
 .ui.reveal {
-	width: 48%;
-	margin-right: .7%;
+	width: 32%;
+	margin-right: .2%;
 	margin-left: .8%;
 }
 
@@ -166,9 +161,9 @@ hr {
 	}
 
 	.ui.images.fade.reveal {
-		margin-left: 25%;
-		margin-right: 25%;
-		margin-top: 50px;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 60px;
 	}
 
 	ul {
@@ -194,7 +189,7 @@ hr {
  }
 
  .ui.grid {
-   margin: 4rem;
+   margin: 2rem;
    font-family: 'Droid Serif', serif;
    font-size: 1em;
    text-align: center;
@@ -206,15 +201,10 @@ hr {
 	position: inherit;
  }
 
- h1 {
-   margin-left: 15%;
-   margin-right: 15%;
- }
-
  .ui.images {
 		margin-left: 15%;
 		margin-right: 15%;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 
  .wrapper {
@@ -265,15 +255,11 @@ hr {
  	margin-right: auto;
  }
 
- h1 {
-   margin-left: 5%;
-   margin-right: 5%;
- }
 
  .ui.images {
 	margin-left: 5%;
 	margin-right: 5%;
-	margin-top: 50px;
+	margin-top: 60px;
 	}
 
 .ui.grid {
