@@ -152,6 +152,12 @@ p {
 	width: 100%;
 }
 
+span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;	
+	color: #949494;
+}
+
 @media screen and (max-width: 1400px) {
 
 	.ui.medium.image.fade.reveal, .ui.medium.images .image, .ui.medium.images img {
