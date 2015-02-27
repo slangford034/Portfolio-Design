@@ -363,6 +363,8 @@ section {
 
   .topbox img {
   	margin-left: 2%;
+  	width: 155px;
+  	margin-top: 30px;
   }
 
 }
